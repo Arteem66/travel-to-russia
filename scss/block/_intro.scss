@@ -1,0 +1,65 @@
+.intro {
+	margin-bottom: 90px;
+}
+
+.question {
+	font-size: 54px;
+	font-weight: 900;
+	line-height: 108.92%;
+	margin-bottom: 45px;
+}
+.answer {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 35px;
+
+	h3 {
+		font-size: 24px;
+		line-height: 157.33%; /* 37.759px */
+		margin-bottom: 35px;
+	}
+}
+.answer__text {
+	display: flex;
+	gap: 20px;
+
+	p {
+		font-size: 14px;
+		line-height: 169.432%; /* 23.72px */
+		max-width: 680px;
+	}
+}
+.text__info {
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 157.33%; /* 15.733px */
+
+	p {
+		font-size: 12px;
+		line-height: 157.33%;
+	}
+}
+.accent {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 157.33%;
+}
+.attractions {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.attraction{
+  font-size: 13px;
+  font-weight: 700;
+  transition: text-decoration .3s;
+
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+.attraction__accent{
+  font-weight: 400;
+}

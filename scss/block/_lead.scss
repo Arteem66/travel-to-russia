@@ -1,31 +1,32 @@
-.lead{
-  margin-bottom: 80px;
+.lead {
+	margin-bottom: 80px;
 }
 
 .lead__wrapper {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 .lead__head {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
 }
 .lead__title {
-font-size: 96px;
-font-weight: 900;
-margin-bottom: 48px;
+	font-size: 96px;
+	font-weight: 900;
+	margin-bottom: 48px;
 }
 .lead__subtitle {
-font-size: 30px;
-margin-bottom: 78px;
+	font-size: 30px;
+	margin-bottom: 78px;
 }
-.figure__img{
-  margin-bottom: 10px;
+.figure__img {
+	margin-bottom: 10px;
+  width: 100%;
 }
-.img__signature{
-font-size: 10px;
-letter-spacing: 1.5px;
-text-transform: uppercase;
+.img__signature {
+	font-size: 10px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
 }

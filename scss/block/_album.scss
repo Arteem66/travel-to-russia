@@ -1,0 +1,15 @@
+.album {
+  margin-bottom: 90px;
+}
+.album__photo {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+  gap: 16px;
+}
+.photo {
+  max-width: 284px;
+
+  img{
+    width: 100%;
+  }
+}
