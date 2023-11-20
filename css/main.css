@@ -117,6 +117,9 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
@@ -131,6 +134,7 @@ html {
 .head__subtitle {
   font-size: 30px;
   margin-bottom: 78px;
+  max-width: 640px;
 }
 
 .min-title {
@@ -306,7 +310,7 @@ html {
 }
 
 .places {
-  margin-bottom: 90px;
+  margin-bottom: 100px;
 }
 
 .places__wrapper {
@@ -481,32 +485,32 @@ html {
   font-weight: 50;
 }
 
+.additional {
+  margin-bottom: 100px;
+}
+
 .additional__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  gap: 16px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .additional__card {
-  max-width: 285px;
+  max-width: 280px;
   position: relative;
 }
 
 .additional__img {
   background-color: #000;
-  opacity: 0.4;
+  opacity: 0.6;
   border-radius: 5px;
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
-}
-.additional__info:hover .additional__img {
-  opacity: 1;
+  width: 100%;
 }
 
 .additional__info {
@@ -521,12 +525,17 @@ html {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 30px 18px;
+  -webkit-transition: padding 0.5s;
+  transition: padding 0.5s;
   position: absolute;
   z-index: 3;
   top: 1px;
   bottom: 0;
   left: 0;
   right: 0;
+}
+.additional__info:hover {
+  padding: 5px 18px;
 }
 .additional__info h3 {
   font-size: 27px;
@@ -536,4 +545,56 @@ html {
 .additional__info p {
   font-size: 14px;
   line-height: 145.227%; /* 20.332px */
+}
+
+.feedback {
+  margin-bottom: 100px;
+}
+
+.comment__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+
+.comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 382px;
+}
+
+.author__img {
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: 40px;
+}
+
+.comment__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+}
+.comment__text p {
+  font-size: 14px;
+  line-height: 169.432%; /* 23.72px */
+}
+
+.comment__author {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 169.432%; /* 23.72px */
 }

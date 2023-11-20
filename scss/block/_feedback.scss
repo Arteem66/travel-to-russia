@@ -1,0 +1,33 @@
+.feedback {
+  margin-bottom: 100px;
+}
+.comment__row {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.comment {
+  display: flex;
+  flex-direction: column;
+  max-width: 382px;
+}
+.author__img{
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: 40px;
+}
+.comment__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  p{
+    font-size: 14px;
+    line-height: 169.432%; /* 23.72px */
+  }
+}
+.comment__author {
+font-size: 14px;
+font-weight: 900;
+line-height: 169.432%; /* 23.72px */
+}
