@@ -1,0 +1,29 @@
+.map {
+	margin-bottom: 160px;
+}
+.map__head {
+	margin-bottom: 48px;
+}
+.map__name {
+	font-size: 42px;
+	font-weight: 900;
+	line-height: 145.227%; /* 60.995px */
+}
+.cord {
+	font-size: 42px;
+	line-height: 145.227%; /* 60.995px */
+}
+
+.map__content {
+	margin-bottom: 48px;
+}
+.map__info {
+	display: flex;
+	gap: 120px;
+}
+.map__descr {
+  max-width: 380px;
+	font-size: 18px;
+	line-height: 169.432%; /* 30.498px */
+}
+

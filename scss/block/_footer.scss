@@ -1,0 +1,27 @@
+.footer {
+	padding-bottom: 48px;
+}
+.footer__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer__nav {
+	display: flex;
+	gap: 18px;
+}
+.nav__item {
+	font-size: 24px;
+	line-height: 169.432%; /* 40.664px */
+}
+.nav__link{
+  transition: text-decoration .5s;
+
+  &:hover{
+    text-decoration: underline;
+  }
+}
+.copyright {
+	font-size: 14px;
+	line-height: 145.227%; /* 20.332px */
+}

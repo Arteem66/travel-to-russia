@@ -1,0 +1,32 @@
+.emblelm {
+	margin-bottom: 85px;
+}
+.emblem__wrappper {
+	display: flex;
+	flex-direction: column;
+}
+.emblem__title {
+	max-width: 440px;
+	font-size: 42px;
+	font-weight: 900;
+	line-height: 108.92%; /* 45.747px */
+	margin-bottom: 80px;
+}
+.emblem__row {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.emblem__card {
+	max-width: 200px;
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+}
+.city__name {
+	color: #ccc;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 108.92%; /* 26.141px */
+}

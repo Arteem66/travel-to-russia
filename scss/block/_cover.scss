@@ -1,0 +1,32 @@
+.cover {
+  margin-bottom: 100px;
+}
+.cover__wrapper{
+  position: relative;
+}
+.cover__img {
+  width: 100%;
+	background-color: #000;
+	opacity: 0.6;
+	border-radius: 5px;
+}
+.cover__text {
+	position: absolute;
+	top: 50%;
+  bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.cover__title {
+	font-size: 72px;
+	font-weight: 900;
+	line-height: 108.92%; /* 78.423px */
+  margin-bottom: 110px;
+}
+.cover__descr {
+	font-size: 18px;
+	line-height: 145.227%; /* 26.141px */
+	max-width: 380px;
+  margin: 0 auto;
+}
