@@ -1,18 +1,49 @@
-body,html{
-  font-family: $main-font;
-  color: $main-color;
-  font-weight: 400;
-  background-color: #2A2C2F;
+body,
+html {
+	font-family: $main-font;
+	color: $main-color;
+	font-weight: 400;
+	background-color: #2a2c2f;
 }
 
-.container{
-  max-width: 1190px;
-  padding: 0 24px;
+.container {
+	max-width: 1190px;
+	padding: 0 24px;
+	margin: 0 auto;
+}
+
+.min-container {
+	max-width: 990px;
+	padding: 0 24px;
+	margin: 0 auto;
+}
+
+.head {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+  max-width: 800px;
   margin: 0 auto;
 }
 
-.min-container{
-  max-width: 990px;
-  padding: 0 24px;
-  margin: 0 auto;
+.head__title {
+	font-size: 96px;
+	font-weight: 900;
+	margin-bottom: 48px;
+}
+
+.head__subtitle {
+	font-size: 30px;
+	margin-bottom: 78px;
+}
+
+.min-title {
+	font-size: 72px;
+	font-weight: 900;
+	line-height: 108.92%; /* 78.423px */
+}
+
+.min-subtitle {
+	font-size: 24px;
+	line-height: 145.227%; /* 34.855px */
 }
