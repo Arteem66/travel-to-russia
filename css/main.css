@@ -528,25 +528,25 @@ html {
 }
 
 .add1 {
-  background: url(./../../img/add1.png);
+  background: url(./../img/add1.png);
   background-size: cover;
   background-position: center;
 }
 
 .add2 {
-  background: url(./../../img/add2.png);
+  background: url(./../img/add2.png);
   background-size: cover;
   background-position: center;
 }
 
 .add3 {
-  background: url(./../../img/add3.png);
+  background: url(./../img/add3.png);
   background-size: cover;
   background-position: center;
 }
 
 .add4 {
-  background: url(./../../img/add4.png);
+  background: url(./../img/add4.png);
   background-size: cover;
   background-position: center;
 }
