@@ -5,7 +5,7 @@
 .additional__content {
 	display: flex;
 	align-items: center;
-	gap: 16px;
+	gap: 20px;
 }
 
 .additional__card {
@@ -13,6 +13,14 @@
 	position: relative;
 	max-width: 284px;
 	height: 330px;
+	transition: all 0.5s;
+
+	&:hover::before {
+		opacity: 0.3;
+	}
+	&:hover {
+		transform: scale(1.1);
+	}
 
 	&::before {
 		content: '';
@@ -24,7 +32,8 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-color: rgba(0, 0, 0, 0.5);
+		background-color: #000;
+		opacity: 0.5;
 		border-radius: 10px;
 	}
 }
@@ -57,6 +66,11 @@
 	justify-content: space-between;
 	position: relative;
 	padding: 30px 18px;
+	transition: padding .5s;
+
+	.additional__card:hover > & {
+		padding: 15px 18px;
+	}
 }
 .additional__name {
 	font-size: 27px;

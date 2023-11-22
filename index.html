@@ -14,6 +14,8 @@
 		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="scss/main.scss" />
 
+		<script src="https://api-maps.yandex.ru/2.0-stable/?apikey=ваш API-ключ&load=package.standard&lang=ru-RU" type="text/javascript"></script>
+
 		<title>Путешествие по России</title>
 	</head>
 	<body>
@@ -333,12 +335,13 @@
 								<div class="video__info">
 									<img class="video__button" src="img/button.svg" alt="" />
 									<div class="video__descr">
-										<p class="video__time">24:45</p>
+										<p class="video__time">6:30</p>
 										<h3 class="video__name">
-											Обсерватория | <br />
-											Observatory
+											Colors of
+											<br />
+											Kamchatka
 										</h3>
-										<p class="viideo__author">Director: Alexander Khudokon</p>
+										<p class="viideo__author">Director: Pavel Karykhalin</p>
 									</div>
 								</div>
 							</a>
@@ -371,25 +374,37 @@
 						<a href="#" class="additional__card add1">
 							<div class="additional__info">
 								<h3 class="additional__name">Новороссийская бухта</h3>
-								<p class="additional__descr">Главный торговый порт не курорт, но море здесь лазурное, и толпы кораблей на рейде. Залюбуешься.</p>
+								<p class="additional__descr">
+									Главный торговый порт не курорт, но море здесь лазурное, и
+									толпы кораблей на рейде. Залюбуешься.
+								</p>
 							</div>
 						</a>
 						<a href="#" class="additional__card add2">
 							<div class="additional__info">
 								<h3 class="additional__name">Аракульский шихан</h3>
-								<p class="additional__descr">Даже для Южного Урала, где красиво везде, это пейзаж выдающийся. И там отсутствует несносная мошкá.</p>
+								<p class="additional__descr">
+									Даже для Южного Урала, где красиво везде, это пейзаж
+									выдающийся. И там отсутствует несносная мошкá.
+								</p>
 							</div>
 						</a>
 						<a href="#" class="additional__card add3">
 							<div class="additional__info">
 								<h3 class="additional__name">Череповец</h3>
-								<p class="additional__descr">Громадный металлургический комбинат на водном пути с Волги в Балтийское море. В нём есть своя красота.</p>
+								<p class="additional__descr">
+									Громадный металлургический комбинат на водном пути с Волги в
+									Балтийское море. В нём есть своя красота.
+								</p>
 							</div>
 						</a>
 						<a href="#" class="additional__card add4">
 							<div class="additional__info">
 								<h3 class="additional__name">Никола-Ленивец</h3>
-								<p class="additional__descr">Оцените ответ современных художников идолам капища, которое было тут при древнем поселении на реке Угра.</p>
+								<p class="additional__descr">
+									Оцените ответ современных художников идолам капища, которое
+									было тут при древнем поселении на реке Угра.
+								</p>
 							</div>
 						</a>
 					</div>
@@ -489,13 +504,8 @@
 						<h2 class="map__name">Баренцбург</h2>
 						<p class="cord">78.0648° с.ш. 14.2335° в.д.</p>
 					</div>
-					<div class="ymaps">
-						<script
-							type="text/javascript"
-							charset="utf-8"
-							async
-							src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Abeee80215149ef5750cc1b9a87ac6fbdf4d4d09b9acf9944129fdadd32f2e2de&amp;width=1140&amp;height=464&amp;lang=ru_RU&amp;scroll=true"
-						></script>
+					<div id="ysmap">
+						<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Abeee80215149ef5750cc1b9a87ac6fbdf4d4d09b9acf9944129fdadd32f2e2de&amp;width=100%25&amp;height=464&amp;lang=ru_RU&amp;scroll=true"></script>
 					</div>
 					<div class="map__info">
 						<p class="map__descr">
