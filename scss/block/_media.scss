@@ -1,7 +1,160 @@
-@media screen and (max-width: 1220px){
-  .album__photo{
-    grid-template: repeat(4, auto) / repeat(3, auto);
-    max-width: 885px;
-    margin: 0 auto;
+@media screen and (max-width: 1220px) {
+	.album__photo {
+		grid-template: repeat(4, auto) / repeat(3, auto);
+		margin: 0 auto;
+	}
+	.photo {
+		width: 100%;
+	}
+	.additional__card {
+		width: 235px;
+		height: 280px;
+	}
+	.additional__content {
+		gap: 10px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	// -----------intro-----------
+
+  .answer__text{
+    flex-direction: column-reverse;
   }
+
+	// -----------places-----------
+
+	.place__name {
+		width: 440px;
+	}
+
+	.place__img {
+		width: 440px;
+	}
+
+	// -----------cover-----------
+
+	.cover__title {
+		max-width: 600px;
+		margin: 0 auto 95px;
+	}
+
+	.cover__text {
+		padding-top: 12%;
+	}
+
+	// -----------map-----------
+
+	.map {
+		margin-bottom: 100px;
+	}
+
+	// -----------footer-----------
+
+	.nav__item {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.head__title {
+		font-size: 72px;
+		margin-bottom: 20px;
+	}
+
+	.head__subtitle {
+		font-size: 26px;
+	}
+
+  .min-title{
+    font-size: 42px;
+  }
+
+  .min-subtitle{
+    font-size: 24px;
+  }
+
+	.album__photo {
+		grid-template: repeat(6, auto) / repeat(2, auto);
+		margin: 0 auto;
+	}
+
+	// -----------places-----------
+
+	.place__name {
+		width: 340px;
+		font-size: 42px;
+	}
+
+	.place__img {
+		width: 340px;
+	}
+
+	.place__info {
+		font-size: 16px;
+	}
+
+	// -----------video-----------
+
+	.video-card {
+		height: 205px;
+	}
+
+	.video__descr {
+		gap: 8px;
+	}
+
+	.video__name {
+		font-size: 24px;
+		max-width: 288px;
+	}
+
+	// -----------comment-----------
+
+	.comment__row {
+		flex-direction: column;
+		align-items: center;
+		gap: 50px;
+	}
+
+	.comment {
+		align-items: center;
+	}
+
+	.author__img {
+		margin-bottom: 10px;
+	}
+
+	.comment__text {
+		align-items: center;
+		max-width: 344px;
+	}
+
+	// -----------cover-----------
+
+	.cover__img {
+		height: 500px;
+	}
+
+	// -----------emblem-----------
+}
+
+@media screen and (max-width: 375px) {
+	// -----------cover-----------
+
+	.cover__img {
+		height: 272px;
+	}
+
+	.cover__title {
+		font-size: 32px;
+		margin-bottom: 20px;
+	}
+
+	.cover__descr {
+		font-size: 14px;
+	}
 }

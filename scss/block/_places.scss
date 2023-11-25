@@ -46,7 +46,13 @@
 	display: flex;
 	gap: 40px;
 }
+
+.place__img{
+	width: 460px;
+}
+
 .place__info {
+	max-width: 484px;
 	display: flex;
 	flex-direction: column;
 	gap: 36px;

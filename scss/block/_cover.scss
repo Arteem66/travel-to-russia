@@ -12,21 +12,25 @@
 }
 .cover__text {
 	position: absolute;
-	top: 50%;
-  bottom: 0;
+	display: flex;
+	flex-direction: column;
+	padding-top: 23%;
+	top: 0;
+	bottom: 0;
 	left: 0;
 	right: 0;
-	text-align: center;
 }
 .cover__title {
 	font-size: 72px;
 	font-weight: 900;
 	line-height: 108.92%; /* 78.423px */
   margin-bottom: 110px;
+	text-align: center;
 }
 .cover__descr {
 	font-size: 18px;
 	line-height: 145.227%; /* 26.141px */
 	max-width: 380px;
   margin: 0 auto;
+	text-align: center;
 }

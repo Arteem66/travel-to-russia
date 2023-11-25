@@ -2,10 +2,10 @@
 	margin-bottom: 100px;
 }
 
+
 .additional__content {
 	display: flex;
-	align-items: center;
-	gap: 20px;
+	gap: 16px;
 }
 
 .additional__card {
@@ -73,6 +73,7 @@
 	}
 }
 .additional__name {
+	word-wrap: break-word;
 	font-size: 27px;
 	font-weight: 900;
 	line-height: 108.92%; /* 29.409px */
