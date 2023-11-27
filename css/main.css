@@ -1104,6 +1104,6 @@ html {
 }
 @media screen and (max-width: 400px) {
   .place__name {
-    max-width: 340px;
+    width: 100%;
   }
 }
